@@ -10,7 +10,7 @@ Decco only contains 2 functions, After and Before.
 
 ##Before
 
-Executes when we enter a function.  
+Before registers a function that executes when we enter the deccorated function. Before takes 3 arguments. The object that contains the functions we want to decorate, the callback to be executed when we enter the decorated function. And the last arguments is the options object. Available options. decorate wich is an array that contains names of the functions we want to decorate. If the options is left out all functions are decorated. 
 
 ### Example
 
