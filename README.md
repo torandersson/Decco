@@ -12,7 +12,7 @@ Decco only contains 2 functions, After and Before.
 
 Executes when we enter a function.  
 
-# Example
+### Example
 
 ```javascript  
 	var decco = new Decco();
